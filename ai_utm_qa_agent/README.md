@@ -27,7 +27,7 @@ An AI agent that validates UTM parameters against your naming conventions, flags
 
 ## Demo
 ```bash
-python ai_utm_qa_agent/utm_qa_agent.py
+python3 ai_utm_qa_agent/utm_qa_agent.py
 ```
 
 ## Installation

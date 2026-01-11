@@ -43,14 +43,14 @@ Each agent is:
 ```bash
 git clone https://github.com/jmilden-git/marketing-agents.git
 cd marketing-agents
-python -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 echo "OPENAI_API_KEY=your-key" > .env
 
 # Run any agent
-python ai_utm_qa_agent/utm_qa_agent.py
-python anomaly_pacing_agent/anomaly_pacing_agent.py
-python rag_campaign_insight_agent/rag_campaign_insight_agent.py
+python3 ai_utm_qa_agent/utm_qa_agent.py
+python3 anomaly_pacing_agent/anomaly_pacing_agent.py
+python3 rag_campaign_insight_agent/rag_campaign_insight_agent.py
 ```
 
 ## Tech Stack

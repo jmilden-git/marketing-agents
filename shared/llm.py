@@ -7,6 +7,10 @@ The implementation can be easily swapped to use different providers.
 import os
 from typing import Optional
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 try:
     from openai import OpenAI
 except ImportError:

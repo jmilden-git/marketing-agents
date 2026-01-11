@@ -28,8 +28,8 @@ An AI agent that uses retrieval-augmented generation (RAG) to find similar histo
 
 ## Demo
 ```bash
-python rag_campaign_insight_agent/rag_campaign_insight_agent.py
-python rag_campaign_insight_agent/rag_campaign_insight_agent.py "Your campaign brief here"
+python3 rag_campaign_insight_agent/rag_campaign_insight_agent.py
+python3 rag_campaign_insight_agent/rag_campaign_insight_agent.py "Your campaign brief here"
 ```
 
 ## Installation

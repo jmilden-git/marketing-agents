@@ -32,7 +32,7 @@ An AI agent that monitors multi-channel campaign performance in real-time, detec
 
 ## Demo
 ```bash
-python anomaly_pacing_agent/anomaly_pacing_agent.py
+python3 anomaly_pacing_agent/anomaly_pacing_agent.py
 ```
 
 ## Installation
