@@ -6,6 +6,8 @@ Marketing teams lose thousands in attribution data due to UTM inconsistencies. M
 ## The Solution
 An AI agent that validates UTM parameters against your naming conventions, flags errors, and suggests corrections—processing 200+ campaigns in seconds.
 
+![UTM Validation Agent CLI Output](../screenshots/utm_qa_agent_cli.png)
+
 ## Business Impact
 - 98% reduction in attribution errors
 - 8 hours/week saved in manual QA

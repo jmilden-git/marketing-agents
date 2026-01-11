@@ -6,6 +6,8 @@ Planning new campaigns without historical context leads to repeated mistakes and
 ## The Solution
 An AI agent that uses retrieval-augmented generation (RAG) to find similar historical campaigns and synthesize actionable insights, recommendations, and KPI risk callouts for new campaign briefs.
 
+![RAG Campaign Insight Agent CLI Output](../screenshots/rag_insight_agent_cli.png)
+
 ## Business Impact
 - Instant access to relevant historical campaign learnings
 - Data-driven recommendations for new campaigns

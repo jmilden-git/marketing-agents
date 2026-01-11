@@ -6,6 +6,8 @@ Campaign overspend and underperformance often go unnoticed until end-of-month re
 ## The Solution
 An AI agent that monitors multi-channel campaign performance in real-time, detects anomalies against configurable guardrails, and produces both structured alerts and executive summaries.
 
+![Anomaly & Pacing Agent CLI Output](../screenshots/anomaly_pacing_agent_cli.png)
+
 ## Business Impact
 - Early detection of budget anomalies (overspend/underspend)
 - Immediate visibility into CPA, CTR, and CVR violations
