@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-Thank you for your interest in contributing to the **Alteryx AI Ops LLM Agent POCs** project.  
+Thank you for your interest in contributing to the **Marketing LLM Agents** project.  
 This repository demonstrates small, production-minded AI agent MVPs aligned with GTM and AI Operations workflows.  
 The guidelines below help ensure code quality, reproducibility, and a consistent development experience.
 

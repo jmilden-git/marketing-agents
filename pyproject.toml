@@ -1,5 +1,5 @@
 [project]
-name = "alteryx-ai-ops-llm-agents-pocs"
+name = "marketing-llm-agents"
 version = "0.1.0"
 description = "Proof of concept LLM agent projects aligned to an AI Operations Lead role."
 authors = [{ name = "Joseph Mildenberger" }]

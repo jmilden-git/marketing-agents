@@ -1,29 +1,39 @@
-
----
-
-### 4.2 `rag_campaign_insight_agent/README.md`
-
-```markdown
 # RAG Campaign Insight Agent
 
-[![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+## The Problem
+Planning new campaigns without historical context leads to repeated mistakes and missed opportunities. Tribal knowledge lives in spreadsheets and people's heads—not accessible when you need it.
 
-This agent retrieves similar historical campaigns and synthesizes insights, recommendations, and KPI risks for a new campaign brief. It is a lightweight demonstration of RAG style reasoning in a GTM context.
+## The Solution
+An AI agent that uses retrieval-augmented generation (RAG) to find similar historical campaigns and synthesize actionable insights, recommendations, and KPI risk callouts for new campaign briefs.
 
-## Files
+## Business Impact
+- Instant access to relevant historical campaign learnings
+- Data-driven recommendations for new campaigns
+- KPI risk identification before launch
+- Reduced planning time with automated insight synthesis
 
-- `rag_campaign_insight_agent.py`  
-  Campaign corpus builder, similarity search, and LLM insight generator.
+## Technical Approach
+1. **Campaign Corpus** - Historical campaigns stored in `campaign_history.json`
+2. **TF-IDF Vectorization** - Converts campaign descriptions to searchable vectors
+3. **Similarity Search** - Cosine similarity ranking finds top 3 most relevant campaigns
+4. **KPI Dictionary** - `kpi_dictionary.yaml` provides metric definitions and context
+5. **LLM Synthesis** - Generates strategic recommendations and risk callouts
 
-- `campaign_history.json`  
-  Synthetic campaign records with channels, objectives, and KPIs.
+## Skills Demonstrated
+- Retrieval-Augmented Generation (RAG) architecture
+- TF-IDF vectorization (scikit-learn)
+- Cosine similarity search
+- OpenAI API integration
+- Campaign analytics and KPI frameworks
 
-- `kpi_dictionary.yaml`  
-  Definitions for key performance indicators used in analysis.
-
-## Running the demo
-
-From the repo root:
-
+## Demo
 ```bash
-python3 rag_campaign_insight_agent/rag_campaign_insight_agent.py
+python rag_campaign_insight_agent/rag_campaign_insight_agent.py
+python rag_campaign_insight_agent/rag_campaign_insight_agent.py "Your campaign brief here"
+```
+
+## Installation
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Add your `OPENAI_API_KEY` to `.env`
+4. Run the demo with your own campaign brief
