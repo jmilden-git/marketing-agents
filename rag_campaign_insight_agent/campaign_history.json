@@ -1,0 +1,29 @@
+[
+  {
+    "id": "C001",
+    "name": "FY24_Q1_Email_Onboarding",
+    "channel": "email",
+    "audience": "new_customers",
+    "objective": "activation",
+    "kpis": {"open_rate": 0.48, "click_rate": 0.16, "conversion_rate": 0.11, "cpl": 12.5},
+    "summary": "Five part onboarding series, triggered on signup, focus on first value and feature education."
+  },
+  {
+    "id": "C002",
+    "name": "FY24_Q2_Paid_Search_Trials",
+    "channel": "paid_search",
+    "audience": "mid_market",
+    "objective": "free_trial_signups",
+    "kpis": {"ctr": 0.065, "conversion_rate": 0.085, "cpl": 45.0},
+    "summary": "Non brand competitor conquest campaign in Google Ads with trial offer landing page."
+  },
+  {
+    "id": "C003",
+    "name": "FY24_Q2_Paid_Social_Retargeting",
+    "channel": "paid_social",
+    "audience": "site_visitors",
+    "objective": "demo_requests",
+    "kpis": {"ctr": 0.021, "conversion_rate": 0.12, "cpl": 80.0},
+    "summary": "LinkedIn retargeting against site visitors, optimized for lead gen with demo CTA."
+  }
+]

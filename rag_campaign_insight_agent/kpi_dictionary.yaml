@@ -1,0 +1,5 @@
+open_rate: "Percentage of delivered emails that were opened. Primary for awareness and engagement."
+click_rate: "Percentage of delivered emails that had at least one click. Indicates content relevance."
+ctr: "Click through rate for ads. Indicator of ad relevance and creative strength."
+conversion_rate: "Percentage of visitors or clicks that completed the target action. Core performance KPI."
+cpl: "Cost per lead. Used to evaluate acquisition efficiency."

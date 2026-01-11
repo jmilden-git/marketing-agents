@@ -1,0 +1,26 @@
+[project]
+name = "alteryx-ai-ops-llm-agents-pocs"
+version = "0.1.0"
+description = "Proof of concept LLM agent projects aligned to an AI Operations Lead role."
+authors = [{ name = "Joseph Mildenberger" }]
+requires-python = ">=3.10"
+dependencies = [
+    "scikit-learn",
+    "pyyaml",
+    "openai",
+    "python-dotenv",
+    "rich",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"

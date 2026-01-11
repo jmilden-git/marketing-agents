@@ -1,0 +1,13 @@
+{
+  "required_params": ["utm_source", "utm_medium", "utm_campaign"],
+  "allowed_values": {
+    "utm_source": ["email", "paid_search", "paid_social", "display", "organic"],
+    "utm_medium": ["email", "cpc", "social", "display", "referral"],
+    "utm_campaign_prefixes": ["fy25_", "fy26_"]
+  },
+  "channel_defaults": {
+    "email": {"utm_source": "email", "utm_medium": "email"},
+    "paid_search": {"utm_source": "paid_search", "utm_medium": "cpc"},
+    "paid_social": {"utm_source": "paid_social", "utm_medium": "social"}
+  }
+}
